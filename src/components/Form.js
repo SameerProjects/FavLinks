@@ -20,7 +20,7 @@ class Form extends Component {
   }
 
   onFormSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault()
 
     this.setState({ name: "", URL: "" })
     this.props.onSubmit(this.state)
@@ -41,4 +41,4 @@ class Form extends Component {
   }
 }
 
-export default Form;
+export default Form
